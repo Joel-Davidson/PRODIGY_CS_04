@@ -11,6 +11,10 @@ This Python script implements a basic keylogger using the pynput library.
 It listens for keyboard events and logs each pressed key into a text file named "keylog.txt". 
 The script runs indefinitely until stopped, capturing keystrokes in real-time.
 
-Note: When running this script in IDLE or Jupyter Notebook, to terminate the program, you need to first close the "keylog.txt" file 
+Note: 
+Before running this script, ensure that the pynput library is installed.
+If it's not installed, you can do so using the command pip install pynput.
+
+When running this script in IDLE or Jupyter Notebook, to terminate the program, you need to first close the "keylog.txt" file 
 and then either press Ctrl+C in IDLE or restart the kernel in Jupyter Notebook. 
 This sequence ensures proper termination of the keylogger and saves the logged keystrokes before exiting.
